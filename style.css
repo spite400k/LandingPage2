@@ -214,52 +214,12 @@ li {
   text-align:center;
   margin-bottom:20px;
 }
-
-#contact dl{
-  display:flex;
-  flex-wrap:wrap;
+.img_block02 a{
+  width:100px;
+  height:100px;
+  display: block;
+  margin:auto;
 }
-
-#contact dt{
-  width:15%;
-  margin-bottom:10px;
-}
-
-#contact dd{
-  width:85%;
-  margin-bottom:10px;
-}
-
-#contact dd input,
-#contact dd textarea{
-  width:100%;
-  border:1px solid #c8c8c8;
-  padding:10px;
-}
-
-
-#contact dd textarea{
-  height:10rem;
-}
-
-#contact .button{
-  text-align:center;
-}
-
-#contact .button input{
-  border:1px solid #24292e;
-  background-color:#24292e;
-  width:200px;
-  padding:15px 0;
-  color:#fff;
-  transition:all 0.3s;
-}
-
-#contact .button input:hover{
-  background-color:#fff;
-  color:#24292e;
-}
-
 
 /* sp */
 @media screen and (max-width:600px){
@@ -320,5 +280,7 @@ li {
   #contact dd {
     width:100%;
   }
+
+  
 }
 
