@@ -7,10 +7,10 @@ import { TextGeometry } from "./geometries/TextGeometry.js";
 const scene = new THREE.Scene();
 
 const sizes = {
-  // width: window.innerWidth,
+  width: window.innerWidth,
   // height: window.innerHeight,
-  width:400,
-  height:150,
+  // width:400,
+  height:200,
 };
 
 // const helper = new THREE.AxesHelper();

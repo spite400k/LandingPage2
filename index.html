@@ -15,7 +15,11 @@
   <body>
     <!-- Header -->
     <header id="header">
-      <canvas id="myCanvas"  width="600" height="150"></canvas>
+      <picture>
+        <source media="(max-width:600px)" srcset="./img/main-sp.jpg">
+        <img src="./img/header.jpg">
+
+      </picture>
       <nav>
         <ul>
           <li><a href="#abont">Abont</a></li>
@@ -30,11 +34,7 @@
     </header>
     <!-- Main -->
     <div id="main">
-      <picture>
-        <source media="(max-width:600px)" srcset="./img/main-sp.jpg">
-        <img src="./img/header.jpg">
-
-      </picture>
+      <canvas id="myCanvas"  width="600" height="150"></canvas>
     </div>
     <!-- about -->
     <section id="about" class="wrapper fadeUpTrigger">
@@ -120,8 +120,12 @@
     <section id="news" class="wrapper fadeUpTrigger">
       <h2 class="section-title">News</h2>
       <dl>
-        <dt>2022/11/29</dt>
+        <dt>2022/11/23</dt>
         <dd>本サイトをリリースしました</dd>
+      </dl>
+      <dl>
+        <dt>2022/11/26</dt>
+        <dd>Three.jsを使ったテキスト領域を追加</dd>
       </dl>
     </section>
 
